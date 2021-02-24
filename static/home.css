@@ -1,0 +1,21 @@
+.container{
+    text-align: center;
+    border: 1px solid black;
+    margin:100px;
+    width:50%;
+    background-color: coral;
+}
+.flex-1{
+    display:flex;
+    border:1px solid black;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flex-1 div{
+    text-align: center;
+    display: flex;
+    padding:10px ;
+    align-items: center;
+    border:2px solid black;
+}
